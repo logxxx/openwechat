@@ -1,3 +1,3 @@
-module github.com/eatmoreapple/openwechat
+module github.com/logxxx/openwechat
 
 go 1.15
