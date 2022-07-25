@@ -44,6 +44,10 @@ func (b *Bot) Alive() bool {
 	}
 }
 
+func (b *Bot) GetQrcodeURL() string {
+	return GetQrcodeUrl(b.uuid)
+}
+
 // GetCurrentUser 获取当前的用户
 //		self, err := bot.GetCurrentUser()
 //		if err != nil {
